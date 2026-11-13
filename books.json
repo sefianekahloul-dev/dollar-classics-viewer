@@ -1698,5 +1698,35 @@
   "year": "",
   "life": "",
   "bio": ""
+ },
+ {
+  "slug": "olocausto",
+  "title": "Olocausto",
+  "author": "Alfredo Oriani",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "vYdzJ",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "cranford",
+  "title": "Cranford",
+  "author": "Elizabeth Cleghorn Gaskell",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "w2DEO",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "le-tragedie-gl-inni-sacri-e-le-odi-di-alessandro-manzoni",
+  "title": "Le tragedie, gl'inni sacri e le odi di Alessandro Manzoni",
+  "author": "Alessandro Manzoni",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "w9xj8",
+  "year": "",
+  "life": "",
+  "bio": ""
  }
 ]
