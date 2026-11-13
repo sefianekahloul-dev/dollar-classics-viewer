@@ -898,5 +898,35 @@
   "year": "",
   "life": "",
   "bio": ""
+ },
+ {
+  "slug": "meditations",
+  "title": "Meditations",
+  "author": "Marcus Aurelius",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "AC9xT",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "life-on-the-mississippi",
+  "title": "Life on the Mississippi",
+  "author": "Mark Twain",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "AXvzN",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "the-call-of-the-wild",
+  "title": "The Call of the Wild",
+  "author": "Jack London",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "CBveD",
+  "year": "",
+  "life": "",
+  "bio": ""
  }
 ]
