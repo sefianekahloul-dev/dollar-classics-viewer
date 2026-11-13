@@ -988,5 +988,25 @@
   "year": "",
   "life": "",
   "bio": ""
+ },
+ {
+  "slug": "history-of-tom-jones-a-foundling",
+  "title": "History of Tom Jones, a Foundling",
+  "author": "Henry Fielding",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "FkDTa",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "the-king-in-yellow",
+  "title": "The King in Yellow",
+  "author": "Robert W. Chambers",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "GDwyW",
+  "year": "",
+  "life": "",
+  "bio": ""
  }
 ]
