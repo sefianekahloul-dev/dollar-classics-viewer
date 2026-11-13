@@ -1658,5 +1658,45 @@
   "year": "",
   "life": "",
   "bio": ""
+ },
+ {
+  "slug": "orlando-furioso",
+  "title": "Orlando Furioso",
+  "author": "Lodovico Ariosto",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "tfS3z",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "pushing-to-the-front",
+  "title": "Pushing to the Front",
+  "author": "Orison Swett Marden",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "tkpRW",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "la-testa-della-vipera",
+  "title": "La testa della vipera",
+  "author": "Vittorio Bersezio",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "ujfcn",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "a-doll-s-house",
+  "title": "A Doll's House",
+  "author": "Henrik Ibsen",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "uoXlO",
+  "year": "",
+  "life": "",
+  "bio": ""
  }
 ]
