@@ -1618,5 +1618,45 @@
   "year": "",
   "life": "",
   "bio": ""
+ },
+ {
+  "slug": "don-quixote",
+  "title": "Don Quixote",
+  "author": "Miguel de Cervantes Saavedra",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "seSOW",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "i-ladri-della-pace",
+  "title": "I ladri della pace",
+  "author": "Arturo Bianchi",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "tMwsJ",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "the-golden-threshold",
+  "title": "The Golden Threshold",
+  "author": "Sarojini Naidu",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "tdwTq",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "second-treatise-of-government",
+  "title": "Second Treatise of Government",
+  "author": "John Locke",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "teFwK",
+  "year": "",
+  "life": "",
+  "bio": ""
  }
 ]
