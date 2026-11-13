@@ -1158,5 +1158,25 @@
   "year": "",
   "life": "",
   "bio": ""
+ },
+ {
+  "slug": "twenty-years-after",
+  "title": "Twenty Years After",
+  "author": "Alexandre Dumas",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "P1tqH",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "electra",
+  "title": "Electra",
+  "author": "Benito P\u00e9rez Gald\u00f3s",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "PW2wK",
+  "year": "",
+  "life": "",
+  "bio": ""
  }
 ]
