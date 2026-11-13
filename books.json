@@ -1138,5 +1138,25 @@
   "year": "",
   "life": "",
   "bio": ""
+ },
+ {
+  "slug": "anna-karenina",
+  "title": "Anna Karenina",
+  "author": "Leo Tolstoy",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "OncJ1",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "the-prince",
+  "title": "The Prince",
+  "author": "Niccol\u00f2 Machiavelli",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "P1YgD",
+  "year": "",
+  "life": "",
+  "bio": ""
  }
 ]
