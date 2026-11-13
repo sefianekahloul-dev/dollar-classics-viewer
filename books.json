@@ -6,17 +6,17 @@
   "teaser": "A warm, comforting gift: four sisters growing up and falling in love through hard times. Can be sent to someone with Payhip's gift option.",
   "code": "xHXc6",
   "year": "1868",
-  "life": "1832–1888",
+  "life": "1832\u20131888",
   "bio": "American novelist raised in Massachusetts. She drew on her own family of four sisters for Little Women, which became one of the best-loved American novels."
  },
  {
   "slug": "wuthering-heights",
   "title": "Wuthering Heights",
-  "author": "Emily Brontë",
+  "author": "Emily Bront\u00eb",
   "teaser": "A wild, obsessive love story set on the Yorkshire moors. A dramatic gift for a romantic reader.",
   "code": "3J0hb",
   "year": "1847",
-  "life": "1818–1848",
+  "life": "1818\u20131848",
   "bio": "English novelist and poet from the Yorkshire moors. Wuthering Heights was her only novel, published a year before her early death at thirty."
  },
  {
@@ -26,7 +26,7 @@
   "teaser": "The ghostly Christmas classic of Scrooge's redemption. A perfect festive gift.",
   "code": "KF3Vy",
   "year": "1843",
-  "life": "1812–1870",
+  "life": "1812\u20131870",
   "bio": "The great Victorian novelist of London life. A Christmas Carol was written in a few weeks in 1843 and shaped how the world imagines Christmas."
  },
  {
@@ -36,7 +36,7 @@
   "teaser": "Dark, elegant and endlessly quotable. A stylish birthday gift.",
   "code": "N1UgX",
   "year": "1890",
-  "life": "1854–1900",
+  "life": "1854\u20131900",
   "bio": "Irish poet, playwright and famous wit. Dorian Gray, his only novel, first appeared in a magazine in 1890 and caused a scandal."
  },
  {
@@ -46,7 +46,7 @@
   "teaser": "Parties, money and a doomed love in 1920s New York. A dazzling birthday gift.",
   "code": "zZYG1",
   "year": "1925",
-  "life": "1896–1940",
+  "life": "1896\u20131940",
   "bio": "American writer who defined the Jazz Age. The Great Gatsby, published in 1925, is often called the great American novel."
  },
  {
@@ -56,18 +56,18 @@
   "teaser": "Pirates, maps and buried treasure. A thrilling birthday gift for any age.",
   "code": "g0vzU",
   "year": "1883",
-  "life": "1850–1894",
+  "life": "1850\u20131894",
   "bio": "Scottish novelist, poet and traveller. Treasure Island began as a story for his stepson and gave us the pirate adventure as we know it."
  },
  {
   "slug": "jane-eyre",
   "title": "Jane Eyre",
-  "author": "Charlotte Brontë",
+  "author": "Charlotte Bront\u00eb",
   "teaser": "A passionate, gripping romance. A Valentine's favourite.",
   "code": "eHyKk",
   "year": "1847",
-  "life": "1816–1855",
-  "bio": "English novelist and eldest of the Brontë sisters. Jane Eyre appeared in 1847 under the pen name Currer Bell."
+  "life": "1816\u20131855",
+  "bio": "English novelist and eldest of the Bront\u00eb sisters. Jane Eyre appeared in 1847 under the pen name Currer Bell."
  },
  {
   "slug": "emma",
@@ -76,7 +76,7 @@
   "teaser": "Witty matchmaking and misunderstandings in Austen's most playful romance. A lovely Valentine's gift.",
   "code": "42X13",
   "year": "1815",
-  "life": "1775–1817",
+  "life": "1775\u20131817",
   "bio": "English novelist of wit and sharp social observation. Emma, published in 1815, is her portrait of a well-meaning matchmaker."
  },
  {
@@ -86,7 +86,7 @@
   "teaser": "Two sisters, one sensible and one passionate, search for love. A Valentine's classic.",
   "code": "olIkO",
   "year": "1811",
-  "life": "1775–1817",
+  "life": "1775\u20131817",
   "bio": "English novelist of wit and sharp social observation. Sense and Sensibility, her first published novel, appeared in 1811."
  },
  {
@@ -96,7 +96,7 @@
   "teaser": "A second chance at love, Austen's most tender story. A Valentine's gift to treasure.",
   "code": "Uwxgm",
   "year": "1817",
-  "life": "1775–1817",
+  "life": "1775\u20131817",
   "bio": "English novelist of wit and sharp social observation. Persuasion, her last completed novel, was published after her death in 1817."
  },
  {
@@ -671,8 +671,8 @@
  },
  {
   "slug": "noli-me-t-ngere",
-  "title": "Noli me tángere",
-  "author": "José Rizal",
+  "title": "Noli me t\u00e1ngere",
+  "author": "Jos\u00e9 Rizal",
   "teaser": "A complete, unabridged classic, beautifully typeset.",
   "code": "0XWoi",
   "year": "",
@@ -722,7 +722,7 @@
  {
   "slug": "fiebre-de-amor-dominique",
   "title": "Fiebre de amor (Dominique)",
-  "author": "Eugène Fromentin",
+  "author": "Eug\u00e8ne Fromentin",
   "teaser": "A complete, unabridged classic, beautifully typeset.",
   "code": "1TMij",
   "year": "",
@@ -781,7 +781,7 @@
  },
  {
   "slug": "cl-sicos-castellanos-libro-de-buen-amor",
-  "title": "Clásicos Castellanos: Libro de Buen Amor",
+  "title": "Cl\u00e1sicos Castellanos: Libro de Buen Amor",
   "author": "Juan Ruiz",
   "teaser": "A complete, unabridged classic, beautifully typeset.",
   "code": "4avqs",
@@ -842,7 +842,7 @@
  {
   "slug": "los-argonautas",
   "title": "Los argonautas",
-  "author": "Vicente Blasco Ibáñez",
+  "author": "Vicente Blasco Ib\u00e1\u00f1ez",
   "teaser": "A complete, unabridged classic, beautifully typeset.",
   "code": "7XNsh",
   "year": "",
@@ -932,7 +932,7 @@
  {
   "slug": "quilito",
   "title": "Quilito",
-  "author": "Carlos María Ocantos",
+  "author": "Carlos Mar\u00eda Ocantos",
   "teaser": "A complete, unabridged classic, beautifully typeset.",
   "code": "Cnf3j",
   "year": "",
@@ -961,8 +961,8 @@
  },
  {
   "slug": "insolaci-n-y-morri-a",
-  "title": "Insolación y Morriña",
-  "author": "Emilia Pardo Bazán",
+  "title": "Insolaci\u00f3n y Morri\u00f1a",
+  "author": "Emilia Pardo Baz\u00e1n",
   "teaser": "A complete, unabridged classic, beautifully typeset.",
   "code": "EVfp0",
   "year": "",
@@ -1022,7 +1022,7 @@
  {
   "slug": "fortunata-y-jacinta",
   "title": "Fortunata y Jacinta",
-  "author": "Benito Pérez Galdós",
+  "author": "Benito P\u00e9rez Gald\u00f3s",
   "teaser": "A complete, unabridged classic, beautifully typeset.",
   "code": "IF8B3",
   "year": "",
@@ -1055,6 +1055,26 @@
   "author": "Henry James",
   "teaser": "A complete, unabridged classic, beautifully typeset.",
   "code": "JLvI6",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "brandelli",
+  "title": "Brandelli",
+  "author": "Olindo Guerrini",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "JZ2Pu",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "on-liberty",
+  "title": "On Liberty",
+  "author": "John Stuart Mill",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "LwJaR",
   "year": "",
   "life": "",
   "bio": ""
