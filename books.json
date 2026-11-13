@@ -968,5 +968,25 @@
   "year": "",
   "life": "",
   "bio": ""
+ },
+ {
+  "slug": "la-divina-comedia",
+  "title": "La Divina Comedia",
+  "author": "Dante Alighieri",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "Eo7se",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "la-crisi",
+  "title": "La crisi",
+  "author": "Marco Praga",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "FAnaN",
+  "year": "",
+  "life": "",
+  "bio": ""
  }
 ]
