@@ -1028,5 +1028,35 @@
   "year": "",
   "life": "",
   "bio": ""
+ },
+ {
+  "slug": "a-modest-proposal",
+  "title": "A Modest Proposal",
+  "author": "Jonathan Swift",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "IyQjX",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "piccoli-eroi",
+  "title": "Piccoli eroi",
+  "author": "Virginia Treves",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "JA8cT",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "the-turn-of-the-screw",
+  "title": "The Turn of the Screw",
+  "author": "Henry James",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "JLvI6",
+  "year": "",
+  "life": "",
+  "bio": ""
  }
 ]
