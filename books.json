@@ -1588,5 +1588,35 @@
   "year": "",
   "life": "",
   "bio": ""
+ },
+ {
+  "slug": "l-amore-che-torna-romanzo",
+  "title": "L'amore che torna: romanzo",
+  "author": "Guido da Verona",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "raoDw",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "le-avventure-di-pinocchio-storia-di-un-burattino",
+  "title": "Le avventure di Pinocchio: Storia di un burattino",
+  "author": "Carlo Collodi",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "s0chp",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "ulysses",
+  "title": "Ulysses",
+  "author": "James Joyce",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "s7jUF",
+  "year": "",
+  "life": "",
+  "bio": ""
  }
 ]
