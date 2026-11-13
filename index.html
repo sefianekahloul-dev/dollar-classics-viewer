@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dollar Classics – 3D book viewer</title>
+<style>
+:root{--w:min(250px,50vw);--h:calc(var(--w)*1.3333);--d:calc(var(--w)*.18)}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;background:#f1ece6;font-family:Georgia,serif;color:#222;text-align:center;overflow-x:hidden}
+h1{font-size:15px;letter-spacing:.2em;text-transform:uppercase;margin:18px 0 0;font-weight:400;color:#7a6a45}
+#info h2{font-size:24px;margin:6px 0 0}#info p{margin:4px 18px;font-style:italic;color:#665}
+#stage{height:min(470px,110vw);perspective:2600px;display:flex;align-items:center;justify-content:center;touch-action:none;cursor:grab;user-select:none}
+#stage:active{cursor:grabbing}
+#rot{transform-style:preserve-3d;width:var(--w);height:var(--h);position:relative;transition:transform .9s cubic-bezier(.3,.7,.2,1)}
+#rot.drag{transition:none}
+.book{transform-style:preserve-3d;width:var(--w);height:var(--h);position:absolute;inset:0}
+.f{position:absolute;background-size:100% 100%;backface-visibility:hidden}
+.back{inset:0;transform:translateZ(calc(var(--d)/-2)) rotateY(180deg)}
+.spine{width:var(--d);height:var(--h);left:calc(var(--d)/-2);transform:rotateY(-90deg)}
+.edge{width:var(--d);height:var(--h);right:calc(var(--d)/-2);transform:rotateY(90deg)}
+.top{width:var(--w);height:var(--d);top:calc(var(--d)/-2);transform:rotateX(90deg)}
+.bot{width:var(--w);height:var(--d);bottom:calc(var(--d)/-2);transform:rotateX(-90deg)}
+.pages{inset:2px 3px 2px 0;transform:translateZ(calc(var(--d)/2 - 6px));backface-visibility:visible}
+.cover{position:absolute;inset:0;transform-origin:left center;transform-style:preserve-3d;transform:translateZ(calc(var(--d)/2));transition:transform 1.1s cubic-bezier(.4,.1,.2,1)}
+.open .cover{transform:translateZ(calc(var(--d)/2)) rotateY(-172deg)}
+.cover .out{inset:0}.cover .in{inset:0;transform:rotateY(180deg);background:#e9dfc6}
+.shade{position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(0,0,0,.18),transparent 30%,transparent 70%,rgba(0,0,0,.12))}
+#shadow{position:absolute;bottom:-30px;left:10%;width:80%;height:24px;background:radial-gradient(ellipse,rgba(0,0,0,.35),transparent 70%);transform:translateZ(-60px) rotateX(90deg);filter:blur(6px)}
+.btns{margin:6px 0 10px}button{font:inherit;border:1px solid #7a6a45;background:#fff;color:#4a3d22;padding:10px 20px;margin:4px;border-radius:24px;font-size:15px}
+button.main{background:#7a6a45;color:#fff}
+#pick{display:flex;gap:8px;overflow-x:auto;padding:10px 14px 24px;justify-content:flex-start}
+#pick img{height:86px;border-radius:4px;box-shadow:0 2px 6px #0004;opacity:.6;flex:none}#pick img.on{opacity:1;outline:2px solid #7a6a45}
+body.embed h1,body.embed #pick{display:none}small{display:block;color:#998;margin-bottom:6px}
+</style></head><body>
+<h1>Dollar Classics</h1>
+<div id="info"><h2 id="t"></h2><p id="a"></p></div>
+<div id="stage"><div id="rot"><div class="book" id="book">
+<div class="f back" id="fb"></div><div class="f spine" id="fs"></div><div class="f edge" id="fe"></div><div class="f top" id="ft"></div><div class="f bot" id="fo"></div>
+<div class="f pages" id="fp"></div>
+<div class="cover"><div class="f out" id="fc"><div class="shade"></div></div><div class="f in"></div></div>
+</div><div id="shadow"></div></div></div>
+<small>Drag to spin · tap the book or the button to open</small>
+<div class="btns"><button class="main" id="open">Open book</button><button id="spin">Auto-spin</button><button id="reset">Front view</button></div>
+<p id="bio" style="max-width:420px;margin:0 auto 6px;padding:0 18px;font-size:15px;line-height:1.45;color:#554"></p>
+<div id="pick"></div>
+<script>
+let BOOKS=[];
+let cur=0,rx=-8,ry=-22,open=false,auto=null;
+const $=id=>document.getElementById(id),rot=$('rot');
+function bg(id,u){$(id).style.backgroundImage='url('+u+')'}
+function show(i){cur=i;const b=BOOKS[i],p=b.slug+'-';$('t').textContent=b.title;$('a').textContent=b.author+' · first published '+b.year;
+$('bio').textContent=b.bio;
+bg('fc',p+'front.jpg');bg('fb',p+'back.jpg');bg('fs',p+'spine.jpg');bg('fe','edge.jpg');bg('ft',p+'top.jpg');bg('fo',p+'top.jpg');bg('fp',p+'page.jpg');
+document.querySelectorAll('#pick img').forEach((e,j)=>e.className=j==i?'on':'');setOpen(false)}
+function apply(){rot.style.transform='rotateX('+rx+'deg) rotateY('+ry+'deg) translateX('+(open?Math.round(rot.offsetWidth*.55):0)+'px)'}
+function setOpen(o){open=o;$('book').parentNode.parentNode.className=o?'open':'';$('open').textContent=o?'Close book':'Open book';if(o){ry=-6;rx=-4}else{ry=-22;rx=-8}apply()}
+$('open').onclick=()=>setOpen(!open);$('reset').onclick=()=>{stopAuto();ry=0;rx=0;apply()};
+$('spin').onclick=()=>{if(auto)return stopAuto();$('spin').textContent='Stop';rot.classList.add('drag');auto=setInterval(()=>{ry+=1.2;apply()},30)};
+function stopAuto(){if(auto){clearInterval(auto);auto=null}$('spin').textContent='Auto-spin';rot.classList.remove('drag')}
+let sx,sy,moved=false,down=false;const st=$('stage');
+st.addEventListener('pointerdown',e=>{down=true;moved=false;sx=e.clientX;sy=e.clientY;rot.classList.add('drag');stopAuto();rot.classList.add('drag');st.setPointerCapture(e.pointerId)});
+st.addEventListener('pointermove',e=>{if(!down)return;const dx=e.clientX-sx,dy=e.clientY-sy;if(Math.abs(dx)+Math.abs(dy)>4)moved=true;sx=e.clientX;sy=e.clientY;ry+=dx*.6;rx=Math.max(-80,Math.min(80,rx-dy*.5));apply()});
+st.addEventListener('pointerup',()=>{down=false;if(!auto)rot.classList.remove('drag');if(!moved)setOpen(!open)});
+fetch('books.json').then(r=>r.json()).then(d=>{BOOKS=d;BOOKS.forEach((b,i)=>{const im=new Image();im.src=b.slug+'-front.jpg';im.loading='lazy';im.onclick=()=>show(i);$('pick').appendChild(im)});
+const q=new URLSearchParams(location.search).get('book');let k=BOOKS.findIndex(b=>b.slug==q);show(k<0?0:k);
+if(new URLSearchParams(location.search).get('embed')){document.body.classList.add('embed')}});
+</script></body></html>
