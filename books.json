@@ -1458,5 +1458,25 @@
   "year": "",
   "life": "",
   "bio": ""
+ },
+ {
+  "slug": "oliver-twist",
+  "title": "Oliver Twist",
+  "author": "Charles Dickens",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "jMRnH",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "la-carit-del-prossimo",
+  "title": "La carità del prossimo",
+  "author": "Vittorio Bersezio",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "jmJ7d",
+  "year": "",
+  "life": "",
+  "bio": ""
  }
 ]
