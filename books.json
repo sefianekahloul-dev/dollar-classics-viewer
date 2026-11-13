@@ -1108,5 +1108,35 @@
   "year": "",
   "life": "",
   "bio": ""
+ },
+ {
+  "slug": "the-enchiridion",
+  "title": "The Enchiridion",
+  "author": "Epictetus",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "NPhdD",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "il-conte-di-monte-cristo",
+  "title": "Il Conte di Monte-Cristo",
+  "author": "Alexandre Dumas",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "O13Bb",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "les-mis-rables",
+  "title": "Les Mis\u00e9rables",
+  "author": "Victor Hugo",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "O3FBN",
+  "year": "",
+  "life": "",
+  "bio": ""
  }
 ]
