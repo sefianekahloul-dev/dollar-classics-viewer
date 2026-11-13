@@ -1558,5 +1558,35 @@
   "year": "",
   "life": "",
   "bio": ""
+ },
+ {
+  "slug": "the-yellow-wallpaper",
+  "title": "The Yellow Wallpaper",
+  "author": "Charlotte Perkins Gilman",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "qM7mo",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "niebla-nivola",
+  "title": "Niebla (Nivola)",
+  "author": "Miguel de Unamuno",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "qkVjo",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "the-importance-of-being-earnest",
+  "title": "The Importance of Being Earnest",
+  "author": "Oscar Wilde",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "rB8o3",
+  "year": "",
+  "life": "",
+  "bio": ""
  }
 ]
