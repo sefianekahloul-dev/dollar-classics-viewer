@@ -1438,5 +1438,25 @@
   "year": "",
   "life": "",
   "bio": ""
+ },
+ {
+  "slug": "the-hound-of-the-baskervilles",
+  "title": "The Hound of the Baskervilles",
+  "author": "Arthur Conan Doyle",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "iEwLm",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "self-help",
+  "title": "Self-Help",
+  "author": "Samuel Smiles",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "ianjV",
+  "year": "",
+  "life": "",
+  "bio": ""
  }
 ]
