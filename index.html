@@ -54,6 +54,7 @@ function setOpen(o){open=o;$('book').parentNode.parentNode.className=o?'open':''
 $('open').onclick=()=>setOpen(!open);$('reset').onclick=()=>{stopAuto();ry=0;rx=0;apply()};
 $('spin').onclick=()=>{if(auto)return stopAuto();$('spin').textContent='Stop';rot.classList.add('drag');auto=setInterval(()=>{ry+=1.2;apply()},30)};
 function stopAuto(){if(auto){clearInterval(auto);auto=null}$('spin').textContent='Auto-spin';rot.classList.remove('drag')}
+window.addEventListener('message',e=>{const d=e.data&&e.data.dc3d;if(!d)return;if(d=='open')setOpen(true);else if(d=='front')$('reset').click();else if(d=='spin'&&!auto)$('spin').click()});
 let sx,sy,moved=false,down=false;const st=$('stage');
 st.addEventListener('pointerdown',e=>{down=true;moved=false;sx=e.clientX;sy=e.clientY;rot.classList.add('drag');stopAuto();rot.classList.add('drag');st.setPointerCapture(e.pointerId)});
 st.addEventListener('pointermove',e=>{if(!down)return;const dx=e.clientX-sx,dy=e.clientY-sy;if(Math.abs(dx)+Math.abs(dy)>4)moved=true;sx=e.clientX;sy=e.clientY;ry+=dx*.6;rx=Math.max(-80,Math.min(80,rx-dy*.5));apply()});
