@@ -3318,5 +3318,55 @@
   "year": "",
   "life": "",
   "bio": ""
+ },
+ {
+  "slug": "troilus-ja-cressida",
+  "title": "Troilus ja Cressida",
+  "author": "William Shakespeare",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "PipcQ",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "kurjat-ii-cosette",
+  "title": "Kurjat II: Cosette",
+  "author": "Victor Hugo",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "eu7x1",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "juha",
+  "title": "Juha",
+  "author": "Juhani Aho",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "9OQaT",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "kuningattaren-l-hetti",
+  "title": "Kuningattaren l\u00e4hetti",
+  "author": "Rafael Sabatini",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "guHCX",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "baskervillen-koira",
+  "title": "Baskervillen koira",
+  "author": "Arthur Conan Doyle",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "ZPnoE",
+  "year": "",
+  "life": "",
+  "bio": ""
  }
 ]
