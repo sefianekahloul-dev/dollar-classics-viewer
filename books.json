@@ -4048,5 +4048,55 @@
   "year": "",
   "life": "",
   "bio": ""
+ },
+ {
+  "slug": "swann-s-way",
+  "title": "Swann's Way",
+  "author": "Marcel Proust",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "fVzj0",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "critical-and-historical-essays",
+  "title": "Critical and Historical Essays",
+  "author": "Edward MacDowell",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "mjSXw",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "kwaidan",
+  "title": "Kwaidan",
+  "author": "Lafcadio Hearn",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "1Q8GZ",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "the-sea-gull",
+  "title": "The Sea-gull",
+  "author": "Anton Pavlovich Chekhov",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "8Tybq",
+  "year": "",
+  "life": "",
+  "bio": ""
+ },
+ {
+  "slug": "the-mystery-of-edwin-drood",
+  "title": "The Mystery of Edwin Drood",
+  "author": "Charles Dickens",
+  "teaser": "A complete, unabridged classic, beautifully typeset.",
+  "code": "o2QsV",
+  "year": "",
+  "life": "",
+  "bio": ""
  }
 ]
